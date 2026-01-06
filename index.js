@@ -8,7 +8,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
 // Render persistent disk mount path
-const DATA_DIR = "/data";
+const DATA_DIR = "./data";
 const LOG_FILE = path.join(DATA_DIR, "webhook.log");
 
 // Ensure directory exists
